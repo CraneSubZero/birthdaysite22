@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#17100d">
+    <meta
+      name="description"
+      content="A little enchanted birthday celebration for Carmela."
+    >
+    <title>Happy Birthday, Carmela ✦</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=IM+Fell+English:ital@0;1&family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-backdrop" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="floating-magic" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="crest" href="#home" aria-label="Carmela's birthday home">
+        <span class="crest-star" aria-hidden="true">✦</span>
+        <span class="crest-name">C</span>
+        <span class="crest-caption">Est. on a magical day</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#celebration">The celebration</a>
+        <a href="#memories">Memory album</a>
+      </nav>
+      <a class="header-note" href="#wish">A wish for you <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow"><span aria-hidden="true">✧</span> An invitation from the wizarding world <span aria-hidden="true">✧</span></p>
+          <h1 id="hero-title">Happy birthday,<br><em>Carmela</em></h1>
+          <p class="hero-copy">
+            Tonight, the candles burn a little brighter.<br>
+            This little corner of magic is all yours.
+          </p>
+          <a class="gold-button" href="#celebration">Enter the celebration <span aria-hidden="true">↓</span></a>
+          <div class="hero-signoff">
+            <span class="rule"></span>
+            <span>With love, on your very special day</span>
+            <span class="rule"></span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#celebration" aria-label="Scroll to the celebration">
+          <span></span>
+        </a>
+      </section>
+
+      <section class="celebration section-shell" id="celebration" aria-labelledby="celebration-title">
+        <div class="section-heading">
+          <p class="eyebrow dark-eyebrow">A little birthday magic</p>
+          <h2 id="celebration-title">The stars aligned <em>for you.</em></h2>
+          <p class="section-intro">
+            If birthdays were spells, yours would be the kind that fills every room
+            with warmth, laughter, and just the right amount of wonder.
+          </p>
+        </div>
+
+        <div class="birthday-letter">
+          <span class="letter-mark" aria-hidden="true">✧</span>
+          <div>
+            <p class="letter-kicker">A note for Carmela</p>
+            <p class="letter-message">
+              May this next trip around the sun bring you brave new adventures,
+              little everyday enchantments, and all the happiness your heart can hold.
+              Keep being wonderfully, unmistakably you.
+            </p>
+            <p class="letter-signature">Your story is only getting more magical <span aria-hidden="true">✦</span></p>
+          </div>
+        </div>
+
+        <div class="wish-panel" id="wish">
+          <div class="wish-stars" aria-hidden="true">✦ &nbsp; ✧ &nbsp; ✦</div>
+          <p class="eyebrow">The birthday ritual</p>
+          <h2>Close your eyes.<br><em>Make a wish.</em></h2>
+          <p>Every birthday deserves one impossible little hope.</p>
+          <button class="wish-button" type="button" id="wish-button">
+            <span aria-hidden="true">✧</span> Cast your wish <span aria-hidden="true">✧</span>
+          </button>
+          <p class="wish-message" id="wish-message" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="memories section-shell" id="memories" aria-labelledby="memories-title">
+        <div class="section-heading">
+          <p class="eyebrow dark-eyebrow">Collected moments</p>
+          <h2 id="memories-title">A few pages from <em>your story.</em></h2>
+          <p class="section-intro">
+            The best kind of magic is the kind we get to keep. Here are a few
+            snapshots for the birthday scrapbook.
+          </p>
+        </div>
+
+        <div class="photo-gallery" aria-label="Carmela's birthday photo album">
+          <button class="polaroid polaroid-one" type="button" data-photo="0" aria-label="View Carmela's portrait in a dark dress">
+            <span class="photo-wrap"><img src="assets/carm1.jpg" alt="Carmela in a dark dress on a staircase" loading="lazy"></span>
+            <span class="photo-caption">A little midnight magic</span>
+            <span class="photo-sparkle" aria-hidden="true">✦</span>
+          </button>
+          <button class="polaroid polaroid-two" type="button" data-photo="1" aria-label="View Carmela in her graduation gown">
+            <span class="photo-wrap"><img src="assets/carm2.jpg" alt="Carmela wearing her graduation gown" loading="lazy"></span>
+            <span class="photo-caption">A milestone worth celebrating</span>
+            <span class="photo-sparkle" aria-hidden="true">✧</span>
+          </button>
+          <button class="polaroid polaroid-three" type="button" data-photo="2" aria-label="View Carmela in a playful costume">
+            <span class="photo-wrap"><img src="assets/carm3.jpg" alt="Carmela in a horned character costume" loading="lazy"></span>
+            <span class="photo-caption">Mischief, managed</span>
+            <span class="photo-sparkle" aria-hidden="true">✦</span>
+          </button>
+          <button class="polaroid polaroid-four" type="button" data-photo="3" aria-label="View Carmela's portrait">
+            <span class="photo-wrap"><img src="assets/carm4.jpg" alt="Carmela in a dark jacket and white shirt" loading="lazy"></span>
+            <span class="photo-caption">One for the memory book</span>
+            <span class="photo-sparkle" aria-hidden="true">✧</span>
+          </button>
+          <button class="polaroid polaroid-five" type="button" data-photo="4" aria-label="View Carmela celebrating with an award">
+            <span class="photo-wrap"><img src="assets/carm5.jpg" alt="Carmela holding a trophy and certificate" loading="lazy"></span>
+            <span class="photo-caption">Proud of every bit of magic</span>
+            <span class="photo-sparkle" aria-hidden="true">✦</span>
+          </button>
+        </div>
+        <p class="gallery-hint"><span aria-hidden="true">✧</span> Tap a photograph to take a closer look <span aria-hidden="true">✧</span></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span class="footer-divider" aria-hidden="true">✦ ─── ✧ ─── ✦</span>
+      <p>May your year be full of wonder, Carmela.</p>
+      <span class="footer-small">Made with a little magic &amp; a lot of love</span>
+    </footer>
+
+    <dialog class="photo-dialog" id="photo-dialog" aria-label="Photo viewer">
+      <button class="dialog-close" type="button" aria-label="Close photo viewer">×</button>
+      <img class="dialog-image" src="" alt="">
+      <p class="dialog-caption"></p>
+    </dialog>
+  </body>
+</html>
